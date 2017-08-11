@@ -1,0 +1,14 @@
+<section>
+	<ul>	
+		<li ng-repeat="i in $ctrl.users">
+			<div class="col-xs-12 other-details">
+				<div class="row">
+					<h2>{{i.title}}</h2>					
+						<span class="col-xs-6 col-sm-3 phone"><i class="fa fa-phone" aria-hidden="true"></i>{{i.phone}}</span>
+						<span class="col-xs-6 col-sm-3  email"><i class="fa fa-envelope-o" aria-hidden="true"></i>{{i.email}}</span>
+					<span class="col-xs-12 col-sm-6 policy"><i class="fa fa-file-text" aria-hidden="true"></i>{{i.policyno}}</span>					
+				</div>
+			</div>
+		</li>
+	</ul>
+</section>
